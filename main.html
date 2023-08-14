@@ -8,17 +8,17 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="POST">
 		<label for="name">Name :</label>
 		<input type="text" id="name" required><br>
-		<label for="name">Email :</label>
+		<label for="email">Email :</label>
 		<input type="email" id="email" required><br>
 		<label for="gender">M</label>
 		<input type="radio" id="gender_m" name="gender" required>
 		<label for="gender">F</label>
 		<input type="radio" id="gender_f" name="gender" required><br>
-		<label for="cars">Choose your car</label>
-		<select>
+		<label for="cars">Choose your cars</label>
+		<select id="cars" name="cars">
 			<option>BMW</option>
 			<option>Audi</option>
 			<option>Mercedez</option>
